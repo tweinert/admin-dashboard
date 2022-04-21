@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 20vh 80vh;
+}
+
+.header {
+  background-color: white;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.sidebar {
+  background-color: skyblue;
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+.main-content {
+  background-color: lightgray;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
